@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1631644739 source:d:\unlam\2021\programacion\0-1ejercicios\c++\boolean\main.cpp
+	"boolean.h"
+	<iostream>
+
+1631983478 d:\unlam\2021\programacion\0-1ejercicios\c++\boolean\boolean.h
+
+1631980771 source:d:\unlam\2021\programacion\0-1ejercicios\c++\boolean\boolean.cpp
+	"Boolean.h"
+

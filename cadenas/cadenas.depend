@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1630713542 source:c:\users\jonatan uran\desktop\03-09-2021\cadenas\cadenas.c
+	<stdio.h>
+	<stdlib.h>
+
+1630715215 source:c:\users\jonatan uran\desktop\03-09-2021\cadenas\funciones.c
+
+1630715244 source:c:\users\jonatan uran\desktop\03-09-2021\cadenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1630713503 c:\users\jonatan uran\desktop\03-09-2021\cadenas\funciones.h
+
+1630713542 source:d:\unlam\2021\programacion\0-1ejercicios\cadenas\cadenas.c
+	<stdio.h>
+	<stdlib.h>
+
+1631579283 source:d:\unlam\2021\programacion\0-1ejercicios\cadenas\funciones.c
+	<string.h>
+	"funciones.h"
+
+1631576215 d:\unlam\2021\programacion\0-1ejercicios\cadenas\funciones.h
+
+1631576164 source:d:\unlam\2021\programacion\0-1ejercicios\cadenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
