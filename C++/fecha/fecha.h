@@ -2,20 +2,33 @@
 #define FECHA_H_INCLUDED
 
 #include <iostream>
+#include <time.h>
 
 using namespace std;
 
-class Fecha{
+class Fecha
+{
 
 private:
-    int _dia;
-    int _mes;
-    int _anio;
+    unsigned int _dia;
+    unsigned int _mes;
+    unsigned int _anio;
+
+    static bool esFechaValida(unsigned int, unsigned int, unsigned int);
 
 public:
-    Fecha(int dia=18, int mes=9, int anio=2021);
+    Fecha();
+    Fecha(int dia, int mes, int anio);
     Fecha operator++(int);
+    bool operator==(const Fecha &) const;
+    void operator+=(int);
+    Fecha operator-(int)const;
+    Fecha& operator-=(int);
+    Fecha& operator--();
+    Fecha operator--(int);
 
+    friend Fecha operator+(const int &, const Fecha &);
+    friend Fecha operator-(const int &, const Fecha &);
     friend ostream &operator<<(ostream& salida, const Fecha &);
     friend istream & operator>>(istream &entrada,  Fecha &);
 };

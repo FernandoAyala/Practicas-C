@@ -35,6 +35,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="archivo.h" />
+		<Unit filename="archivoprofe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="archivoprofe2.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

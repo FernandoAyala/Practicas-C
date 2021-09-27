@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1584205420 source:d:\unlam\2021\programacion\0-1ejercicios\fecha\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1632399406 source:d:\unlam\2021\programacion\0-1ejercicios\fecha\fecha.c
+	"fecha.h"
+
+1632399224 d:\unlam\2021\programacion\0-1ejercicios\fecha\fecha.h
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1632362171 source:d:\unlam\2021\programacion\0-1ejercicios\archivo\archivo.c
+	"archivo.h"
+
+1632352297 source:d:\unlam\2021\programacion\0-1ejercicios\archivo\archivoprofe2.c
+	<stdio.h>
+	<stdlib.h>
+
+1632362541 source:d:\unlam\2021\programacion\0-1ejercicios\archivo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"archivo.h"
+
+1632352284 source:d:\unlam\2021\programacion\0-1ejercicios\archivo\archivoprofe.c
+	<stdio.h>
+	<stdlib.h>
+
+1632362466 d:\unlam\2021\programacion\0-1ejercicios\archivo\archivo.h
+	<stdio.h>
+	<stdlib.h>
+

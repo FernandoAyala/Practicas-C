@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1632002833 source:d:\unlam\2021\programacion\0-1ejercicios\c++\fecha\fecha.cpp
+1632766545 source:d:\unlam\2021\programacion\0-1ejercicios\c++\fecha\fecha.cpp
 	"fecha.h"
 
-1632002832 d:\unlam\2021\programacion\0-1ejercicios\c++\fecha\fecha.h
+1632766412 d:\unlam\2021\programacion\0-1ejercicios\c++\fecha\fecha.h
 	<iostream>
+	<time.h>
 
-1632002575 source:d:\unlam\2021\programacion\0-1ejercicios\c++\fecha\main.cpp
+1632766455 source:d:\unlam\2021\programacion\0-1ejercicios\c++\fecha\main.cpp
 	"fecha.h"
 
