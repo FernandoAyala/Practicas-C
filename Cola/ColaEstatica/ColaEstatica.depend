@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1623339342 source:c:\users\fer\desktop\cola\colaestatica\cola.c
+
+1584205420 source:c:\users\fer\desktop\cola\colaestatica\main.c
+	<stdio.h>
+	<stdlib.h>
+
