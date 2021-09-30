@@ -13,5 +13,6 @@ typedef struct
 int esFechaValida(const tFecha * f);
 int cantDiasMes(int mes, int anio);
 int esBisiesto(int anio);
+int diaSiguiente(tFecha *f);
 
 #endif // FECHA_H_INCLUDED

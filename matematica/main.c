@@ -3,8 +3,7 @@
 #include"matematica.h"
 int main()
 {
-    int n;
-    int c1, c2;
+    int n, c1, c2, multi;
     float resultadoC;
     printf("Ingrese un numero para factorizar: \t");
     scanf("%d",&n);
@@ -21,5 +20,7 @@ int main()
     }else
         printf("\n Los valores ingresados no son los correctos");
 
+       multi = multiRusa(20,8);
+       printf("\nLa multi Rusa es: %d",multi);
     return 0;
 }

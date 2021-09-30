@@ -72,3 +72,40 @@ int longitud_de_la_palabra_mas_larga(const char *texto)
     }
     return cont_may;
 }
+
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <ctype.h>
+//char* normalizar(char * cad);
+//int main()
+//{
+//    char cad[] = "    pErEz      GomEz   , JoSe    albeRTO          ";
+//    printf("*%s*", normalizar(cad));
+//    return 0;
+//}
+//
+//char* normalizar(char * cad)
+//{
+//    char * lect = cad, * esc = cad;
+//    int primeraLetraPalabra;
+//    while(*lect)
+//    {
+//        while(isspace(*lect))
+//            lect++;
+//        if(*lect)
+//        {
+//            primeraLetraPalabra = 1;
+//            while(*lect && !isspace(*lect))
+//            {
+//                *esc = primeraLetraPalabra? toupper(*lect) : tolower(*lect);
+//                primeraLetraPalabra = 0;
+//                esc++;
+//                lect++;
+//            }
+//            *esc = ' ';
+//            esc++;
+//        }
+//    }
+//    *(esc-1) = '\0';
+//    return cad;
+//}

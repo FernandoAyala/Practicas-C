@@ -5,6 +5,6 @@
 
 double factorial ( int n );
 double combinatorio ( int n, int m );
-
+int multiRusa(int n1, int n2);
 
 #endif // MATEMATICA_H_INCLUDED
