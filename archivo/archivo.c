@@ -77,3 +77,28 @@ int actualizarSueldo(FILE *est, FILE *emp)
     fclose(emp);
     return 1;
 }
+
+void crearArchivosTxt(FILE *fpbin,FILE *fplv,FILE *fplf)
+{
+    t_estudiantes tAux;
+    rewind(fpbin);
+    fread(&tAux,sizeof(t_estudiantes),1,fpbin);
+    while(!feof(fpbin))
+    {
+        /**LV**/
+        fprintf(fplv,"%d|%s|%s|%.2f\n",tAux.dni,tAux.apellido,tAux.nombre,tAux.promedio);
+        /**LF**/
+        fprintf(fplf,"%010d%-29s%-29s%010.2f\n",tAux.dni,tAux.apellido,tAux.nombre,tAux.promedio);
+        fread(&tAux,sizeof(t_estudiantes),1,fpbin);
+    }
+}
+
+int leerEstudianteTxtLv(FILE *pf, t_estudiantes *est )
+{
+    return fscanf(pf,"%d|%[^|\n]|%[^|\n]|%f\n",&est->dni,est->apellido,est->nombre,&est->promedio) ==4;
+}
+
+int leerEstudianteTxtLf(FILE *pf, t_estudiantes *est )
+{
+    return fscanf(pf,"%010d%29[^\n]%29[^\n]%010f\n",&est->dni,est->apellido,est->nombre,&est->promedio) ==4;
+}

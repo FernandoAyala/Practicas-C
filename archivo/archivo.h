@@ -24,5 +24,7 @@ typedef struct
 int cargarArchivoEstudiantes(char *nombre);
 int cargarArchivoEmpleados(char *nombre);
 int actualizarSueldo(FILE *est, FILE *emp);
-
+void crearArchivosTxt(FILE * fpbin, FILE *fpLF, FILE *fpLV);
+int leerEstudianteTxtLv(FILE *pf, t_estudiantes *est );
+int leerEstudianteTxtLf(FILE *pf, t_estudiantes *est );
 #endif // ARCHIVO_H_INCLUDED
