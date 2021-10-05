@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1633189414 source:d:\unlam\2021\programacion\0-1ejercicios\c++\cadena\cadena.cpp
+1633193532 source:d:\unlam\2021\programacion\0-1ejercicios\c++\cadena\cadena.cpp
 	"cadena.h"
 
-1633189145 d:\unlam\2021\programacion\0-1ejercicios\c++\cadena\cadena.h
+1633193337 d:\unlam\2021\programacion\0-1ejercicios\c++\cadena\cadena.h
 	<iostream>
 	<string.h>
 
-1633189290 source:d:\unlam\2021\programacion\0-1ejercicios\c++\cadena\main.cpp
+1633193479 source:d:\unlam\2021\programacion\0-1ejercicios\c++\cadena\main.cpp
 	<iostream>
 	"cadena.h"
 

@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1632965417 source:d:\unlam\2021\programacion\0-1ejercicios\matematica\main.c
+1633387463 source:d:\unlam\2021\programacion\0-1ejercicios\matematica\main.c
 	<stdio.h>
 	<stdlib.h>
 	"matematica.h"
 
-1632965417 d:\unlam\2021\programacion\0-1ejercicios\matematica\matematica.h
+1633387372 d:\unlam\2021\programacion\0-1ejercicios\matematica\matematica.h
 	<stdio.h>
 	<stdlib.h>
 
-1632965952 source:d:\unlam\2021\programacion\0-1ejercicios\matematica\matematica.c
+1633387488 source:d:\unlam\2021\programacion\0-1ejercicios\matematica\matematica.c
 	"matematica.h"
 

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-    int main()
+int main()
 {
     Cadena c1("Hola");
     cout << "c1: " << c1 << endl;
