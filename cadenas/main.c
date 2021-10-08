@@ -2,21 +2,26 @@
 #include <stdlib.h>
 #include "funciones.h"
 #include "cadenas.h"
+#include <string.h>
 /*
-strstr
-strcmp
-strcpy
+strstr Listo
+strcmp Listo
+strcpy Listo
 strlen Listo
 strchr Listo
 strrchr Listo
+memcpy
 */
 int main()
 {
     char texto[TAM] = "puntero a puntero es forma punteros encadenamiento123456 de punteros.";
     char primera[TAM];
     char pala[5]="Ho";
+    char pala1[5]="la";
+    char pala2[20]="Holacuates";
+    char copi[TAM];
 
-    int cantLetras,apariciones, cant_palabras/*, long_palabra*/;
+    int cantLetras,apariciones, cant_palabras, cmp/*, long_palabra*/;
 
     primera_palabra(texto,primera);
     apariciones=cuantas_veces_aparece(texto,primera);
@@ -36,5 +41,23 @@ int main()
 
     printf("\n%s \ny \n%c \n=> \n%s",s,c,mi_strrchr(s,c));
 
+    printf("\nCopia : %s\n",mi_strcpy(copi,pala));
+
+    cmp = mi_strcmp(copi,s);
+    if(cmp == 0)
+    {
+        printf("Iguales");
+    }
+    else if(cmp > 0)
+    {
+        printf("Mayor");
+    }
+    else
+    {
+        printf("Menor");
+    };
+
+    printf("\n/**STRSTR**/\n%s \ny \n%s \n=> \n%s",pala1,pala2,mi_strstr(pala2,pala1));
+    printf("\n/**STRSTR REAL**/\n%s \ny \n%s \n=> \n%s",pala1,pala2, strstr(pala2,pala1));
     return 0;
 }
