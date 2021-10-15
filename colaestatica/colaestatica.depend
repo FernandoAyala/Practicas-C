@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1584205420 source:d:\unlam\2021\programacion\0-1ejercicios\colaestatica\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1634168777 source:d:\unlam\2021\programacion\0-1ejercicios\colaestatica\colaestatica.c
+	"colaestatica.h"
+	<string.h>
+
+1634168640 d:\unlam\2021\programacion\0-1ejercicios\colaestatica\colaestatica.h
+

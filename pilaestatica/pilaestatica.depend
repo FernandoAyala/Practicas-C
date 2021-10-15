@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1634167602 source:d:\unlam\2021\programacion\0-1ejercicios\pilaestatica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaestatica.h"
+
+1634167656 d:\unlam\2021\programacion\0-1ejercicios\pilaestatica\pilaestatica.h
+
+1634167895 source:d:\unlam\2021\programacion\0-1ejercicios\pilaestatica\pilaestatica.c
+	"pilaestatica.h"
+	<string.h>
+

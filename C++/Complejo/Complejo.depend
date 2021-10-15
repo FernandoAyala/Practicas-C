@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1623455560 source:c:\users\fer\desktop\parcial\ejercicio2\complejo\complejo.cpp
+	"Complejo.h"
+
+1623451638 source:c:\users\fer\desktop\parcial\ejercicio2\complejo\main.cpp
+	<iostream>
+	"Complejo.h"
+	<iostream>
+
+1623455560 c:\users\fer\desktop\parcial\ejercicio2\complejo\complejo.h
+	<iostream>
+
+1631378960 source:d:\unlam\2021\programacion\parcial\ejercicio2\complejo\main.cpp
+	<iostream>
+	"Complejo.h"
+	<iostream>
+
+1631379596 d:\unlam\2021\programacion\parcial\ejercicio2\complejo\complejo.h
+	<iostream>
+
+1631379164 source:d:\unlam\2021\programacion\parcial\ejercicio2\complejo\complejo.cpp
+	"Complejo.h"
+
+1634303488 source:d:\unlam\2021\programacion\0-1ejercicios\c++\complejo\main.cpp
+	<iostream>
+	"Complejo.h"
+	<iostream>
+
+1634303437 d:\unlam\2021\programacion\0-1ejercicios\c++\complejo\complejo.h
+	<iostream>
+
+1634303435 source:d:\unlam\2021\programacion\0-1ejercicios\c++\complejo\complejo.cpp
+	"Complejo.h"
+
