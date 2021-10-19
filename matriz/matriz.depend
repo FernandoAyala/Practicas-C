@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1631913286 source:d:\unlam\2021\programacion\0-1ejercicios\matriz\matriz.c
+1634414614 source:d:\unlam\2021\programacion\0-1ejercicios\matriz\matriz.c
 	"matriz.h"
 
-1631913286 source:d:\unlam\2021\programacion\0-1ejercicios\matriz\main.c
+1634414638 source:d:\unlam\2021\programacion\0-1ejercicios\matriz\main.c
 	<stdio.h>
 	<stdlib.h>
 	"matriz.h"
 
-1631912362 d:\unlam\2021\programacion\0-1ejercicios\matriz\matriz.h
+1634414569 d:\unlam\2021\programacion\0-1ejercicios\matriz\matriz.h
 	<stdio.h>
 	<stdlib.h>
 

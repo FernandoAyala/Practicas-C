@@ -25,6 +25,22 @@ Cadena Cadena::operator+(const char *pal)
     return sum;
 }
 
+
+Cadena & Cadena::operator = (const Cadena&obj)
+{
+    this->_pal = new char [strlen(obj._pal)+1];
+    strcpy(this->_pal,obj._pal);
+    return *this;
+}
+
+
+Cadena & Cadena::operator = (const char*palabra)
+{
+    this->_pal = new char [strlen(palabra)+1];
+    strcpy(this->_pal,palabra);
+    return *this;
+}
+
 ostream & operator<<(ostream &salida, const Cadena &pal)
 {
     salida << pal._pal;

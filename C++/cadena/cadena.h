@@ -14,6 +14,9 @@ public:
     ~Cadena();
     Cadena(const char*);
     Cadena operator+(const char *);
+    Cadena & operator=(const char *);
+    Cadena & operator = (const Cadena&);
+
 
     friend ostream & operator<<(ostream &salida, const Cadena &);
 };

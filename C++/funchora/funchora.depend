@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1574205759 source:c:\users\fernando\desktop\programas en c\funchora\main.cpp
+	"funch.h"
+
+1574291431 c:\users\fernando\desktop\programas en c\funchora\funch.h
+	<iostream>
+
+1574291394 source:c:\users\fernando\desktop\programas en c\funchora\funchora.cpp
+	"funch.h"
+

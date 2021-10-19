@@ -8,11 +8,15 @@ int main()
     int sumadiag = 0;
     int mat[][TAM]=
     {
-        {1,2,3},
-        {4,5,6},
-        {7,8,9}
+        {1,0,0},
+        {0,1,0},
+        {0,0,1}
     };
 
+    if(determinarMatrizIdentidad(mat,3) == 1)
+        printf("\nes Identidad");
+    if(determinarMatrizDiagonal(mat,3) == 1)
+        printf("\nes Diagonal");
     for(int i=0; i<TAM; i++)
     {
         printf("\n");

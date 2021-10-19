@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1507557506 source:c:\users\32691574\desktop\suma_grandes_numeros\suma_numeros\pila.c
+	<stdio.h>
+	"pila.h"
+
+1507558802 c:\users\32691574\desktop\suma_grandes_numeros\suma_numeros\pila.h
+
+1507651741 source:c:\users\32691574\desktop\suma_grandes_numeros\suma_numeros\funciones.c
+	<stdio.h>
+	<string.h>
+	"pila.h"
+
+1507641393 source:c:\users\32691574\desktop\suma_grandes_numeros\suma_numeros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+	"funciones.h"
+
+1507638998 c:\users\32691574\desktop\suma_grandes_numeros\suma_numeros\funciones.h
+
+1634336293 source:c:\users\jonatan uran\desktop\2021-10-15\suma_numeros\funciones.c
+	<stdio.h>
+	<string.h>
+	"pila.h"
+
+1634335346 c:\users\jonatan uran\desktop\2021-10-15\suma_numeros\pila.h
+
+1634336420 source:c:\users\jonatan uran\desktop\2021-10-15\suma_numeros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+	"funciones.h"
+
+1634335974 c:\users\jonatan uran\desktop\2021-10-15\suma_numeros\funciones.h
+
+1634335442 source:c:\users\jonatan uran\desktop\2021-10-15\suma_numeros\pila.c
+	"pila.h"
+	<stdlib.h>
+	<string.h>
+
+1634349400 source:d:\unlam\2021\programacion\0-1ejercicios\suma_numeros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+	"funciones.h"
+
+1634335346 d:\unlam\2021\programacion\0-1ejercicios\suma_numeros\pila.h
+
+1634348786 d:\unlam\2021\programacion\0-1ejercicios\suma_numeros\funciones.h
+	"pila.h"
+
+1634335442 source:d:\unlam\2021\programacion\0-1ejercicios\suma_numeros\pila.c
+	"pila.h"
+	<stdlib.h>
+	<string.h>
+
