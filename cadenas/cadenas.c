@@ -87,12 +87,12 @@ int validar_nro_cuenta(t_movimiento_banco * c1)
     aux[1] = c1->cod_cta[2];
     aux[2] = c1->cod_cta[4];
     aux[3] = '\0';
-    num1 = atoi(aux);
+    num1 = mi_atoi(aux);
     aux[0] = c1->cod_cta[1];
     aux[1] = c1->cod_cta[3];
     aux[2] = c1->cod_cta[5];
     aux[3] = '\0';
-    num2 = atoi(aux);
+    num2 = mi_atoi(aux);
     num1 -= num2;
     num1 = (num1/100)+((num1%100)/10)+(num1%10);
     num1 = (num1/10)+(num1%10);
@@ -102,6 +102,29 @@ int validar_nro_cuenta(t_movimiento_banco * c1)
     if(c1->cod_cta[7] == (num1+48))
         return 1;
     return 0;
+}
+int mi_atoi(const char *cad)
+{
+    int sum=0;
+    while(*cad)
+    {
+        sum*=10;
+        sum+=*cad - '0';
+        cad++;
+    }
+    return sum;
+}
+
+long mi_atol(const char *cad)
+{
+    long sum=0;
+    while(*cad)
+    {
+        sum*=10;
+        sum+=*cad - '0';
+        cad++;
+    }
+    return sum;
 }
 // En Proceso
 //void *mi_memcpy(void *s1, const void *s2, size_t n)

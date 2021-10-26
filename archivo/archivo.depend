@@ -19,3 +19,23 @@
 	<stdio.h>
 	<stdlib.h>
 
+1635257283 source:c:\users\amir\desktop\codigo en c\practicas-c\archivo\archivo.c
+	"archivo.h"
+
+1635256758 c:\users\amir\desktop\codigo en c\practicas-c\archivo\archivo.h
+	<stdio.h>
+	<stdlib.h>
+
+1635256758 source:c:\users\amir\desktop\codigo en c\practicas-c\archivo\archivoprofe.c
+	<stdio.h>
+	<stdlib.h>
+
+1635256758 source:c:\users\amir\desktop\codigo en c\practicas-c\archivo\archivoprofe2.c
+	<stdio.h>
+	<stdlib.h>
+
+1635256758 source:c:\users\amir\desktop\codigo en c\practicas-c\archivo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"archivo.h"
+

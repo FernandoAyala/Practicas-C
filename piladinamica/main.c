@@ -34,7 +34,7 @@ int main()
 //        sacar_de_pila(&pila_ent, &elem, sizeof(elem));
 //        printf("-%d", elem);
 //    }
-
+/*** Ejercicio que compara tope de pila con los elementos de la otra pila.
 tPila pila_destino;
 tPila pila_comp;
 int tope = 4;
@@ -67,8 +67,31 @@ while(!pila_vacia(&pila_comp))
     }
 }
 
+**/
+/*** cargar desde teclado pila1 y pasar a piladestino todos aquellos
+elementos distintos a 8(ocho)***/
 
-
+tPila pila1, pilaDestino;
+int entero=0, sacent,sacdes, cont=0;
+crear_pila(&pila1);
+crear_pila(&pilaDestino);
+while(entero !=1)
+      {
+          scanf("%d",&entero);
+          printf("\n");
+          poner_en_pila(&pila1,&entero,sizeof(entero));
+          if(entero == 8)
+            {
+          sacar_de_pila(&pila1,&sacent,sizeof(sacent));
+          poner_en_pila(&pilaDestino,&sacent,sizeof(sacent));
+      }
+      }
+      while(!pila_vacia(&pilaDestino))
+{
+        cont++;
+        sacar_de_pila(&pilaDestino,&sacdes,sizeof(sacdes));
+        printf("\n%d\n sacamos: %d",sacdes,cont);
+}
 
     return 0;
 }

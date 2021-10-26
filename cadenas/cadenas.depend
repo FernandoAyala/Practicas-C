@@ -32,3 +32,23 @@
 
 1635213402 d:\unlam\2021\programacion\0-1ejercicios\cadenas\cadenas.h
 
+1635260372 source:c:\users\amir\desktop\codigo en c\practicas-c\cadenas\cadenas.c
+	<stdio.h>
+	<stdlib.h>
+	"cadenas.h"
+
+1635259696 c:\users\amir\desktop\codigo en c\practicas-c\cadenas\cadenas.h
+
+1635256758 source:c:\users\amir\desktop\codigo en c\practicas-c\cadenas\funciones.c
+	<string.h>
+	"funciones.h"
+
+1635256758 c:\users\amir\desktop\codigo en c\practicas-c\cadenas\funciones.h
+
+1635256758 source:c:\users\amir\desktop\codigo en c\practicas-c\cadenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"cadenas.h"
+	<string.h>
+

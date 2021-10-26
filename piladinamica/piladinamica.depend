@@ -11,3 +11,15 @@
 	<stdlib.h>
 	<string.h>
 
+1635263458 source:c:\users\amir\desktop\codigo en c\practicas-c\piladinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"piladinamica.h"
+
+1635256758 c:\users\amir\desktop\codigo en c\practicas-c\piladinamica\piladinamica.h
+
+1635256758 source:c:\users\amir\desktop\codigo en c\practicas-c\piladinamica\piladinamica.c
+	"piladinamica.h"
+	<stdlib.h>
+	<string.h>
+

@@ -14,5 +14,7 @@ char *mi_strrchr(char *s, int c);
 char *mi_strcpy(char *s1, const char *s2);
 int mi_strcmp(const char *s1, const char *s2);
 int validar_nro_cuenta(t_movimiento_banco * c1);
+int mi_atoi(const char *cad);
+long mi_atol(const char *cad);
 // void *mi_memcpy(void *s1, const void *s2, size_t n);
 #endif // CADENAS_H_INCLUDED

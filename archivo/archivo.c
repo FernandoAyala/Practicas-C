@@ -63,7 +63,8 @@ int actualizarSueldo(FILE *est, FILE *emp)
                 fseek(emp,(long)-sizeof(t_empleados),SEEK_CUR);
                 fwrite(&empleado,sizeof(t_empleados),1,emp);
                 fseek(emp,0,SEEK_CUR);
-                 fread(&estudiante,sizeof(t_estudiantes),1,est);
+                fread(&estudiante,sizeof(t_estudiantes),1,est);
+
             }
         }
         else
