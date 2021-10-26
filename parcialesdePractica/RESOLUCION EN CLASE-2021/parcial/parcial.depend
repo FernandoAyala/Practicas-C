@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1624666752 source:c:\users\fer\desktop\resolucion en clase\parcial\banco.c
+	<banco.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+	<cola_estatica.h>
+
+1623383808 c:\users\fer\desktop\resolucion en clase\include\banco.h
+
+1623387617 c:\users\fer\desktop\resolucion en clase\include\utilitarias.h
+	<banco.h>
+	<stdio.h>
+
+1623384122 c:\users\fer\desktop\resolucion en clase\include\cola_estatica.h
+
+1624647482 source:c:\users\fer\desktop\resolucion en clase\parcial\cola_estatica.c
+	<cola_estatica.h>
+	<string.h>
+
+1624064448 source:c:\users\fer\desktop\resolucion en clase\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1624666752 source:c:\users\fer\desktop\resolucion en clase\parcial\utilitarias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<utilitarias.h>
+	<banco.h>
+

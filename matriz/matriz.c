@@ -37,7 +37,7 @@ int sumatoriaDiagonalSecundaria(int mat [][TAM], int orden)
     for (int i=0; i<orden; i++)
         for(int j=orden-1; j>=0; j--)
             if(j+i == orden-1)
-            sumatoria+=mat[i][j];
+                sumatoria+=mat[i][j];
     return sumatoria;
 }
 
@@ -55,7 +55,7 @@ int sumatoriaDiaSec(int mat [][TAM], int orden)
 /** Ejercicio 31 ***/
 int determinarMatrizDiagonal( int mat [][TAM],int orden)
 {
-    for (int i=0;i <orden ; i++)
+    for (int i=0; i <orden ; i++)
     {
         if(mat[i][i] == 0)
         {
@@ -76,7 +76,7 @@ int determinarMatrizDiagonal( int mat [][TAM],int orden)
 /** Ejercicio 32 ***/
 int determinarMatrizIdentidad( int mat [][TAM],int orden)
 {
-    for (int i=0;i <orden ; i++)
+    for (int i=0; i <orden ; i++)
     {
         if(mat[i][i] != 1)
         {
@@ -93,3 +93,40 @@ int determinarMatrizIdentidad( int mat [][TAM],int orden)
     return 1;
 }
 
+/***Ejercicio 33 **/
+int determinarSimetria(int mat [][TAM], int orden)
+{
+    int contSup = 0, contInf = 0;
+
+    for(int i = 0 ; i < orden ; i++ )
+    {
+        for(int j= i+1; j< orden ; j++ )
+            contSup++;
+    }
+    for (int i = 0; i < orden; i++)
+    {
+        for(int j = 0; j < i; j++)
+            contInf++;
+    }
+    return contSup-contInf;
+}
+
+/***Ejercicio 34 ***/
+void trasponerMatriz(int mat[][TAM], int orden)
+{
+    int trasp[TAM][TAM];
+    for(int i=0; i<orden; i++)
+    {
+        for(int j=0; j<orden; j++)
+        {
+            trasp[j][i] = mat[i][j];
+        }
+    }
+    for(int i=0; i<orden; i++)
+    {
+        for(int j=0; j<orden; j++)
+        {
+            printf("%d",trasp[i][j]);
+
+    }
+}

@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1634166712 source:d:\unlam\2021\programacion\0-1ejercicios\piladinamica\main.c
+1635049403 source:d:\unlam\2021\programacion\0-1ejercicios\piladinamica\main.c
 	<stdio.h>
 	<stdlib.h>
 	"piladinamica.h"
 
-1634166807 d:\unlam\2021\programacion\0-1ejercicios\piladinamica\piladinamica.h
+1635049132 d:\unlam\2021\programacion\0-1ejercicios\piladinamica\piladinamica.h
 
-1634166807 source:d:\unlam\2021\programacion\0-1ejercicios\piladinamica\piladinamica.c
+1635049158 source:d:\unlam\2021\programacion\0-1ejercicios\piladinamica\piladinamica.c
 	"piladinamica.h"
 	<stdlib.h>
 	<string.h>

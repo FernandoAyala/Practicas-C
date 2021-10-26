@@ -11,4 +11,6 @@ int sumatoriaDiagonalSecundaria(int mat [][TAM], int orden);
 int sumatoriaDiaSec(int mat [][TAM], int orden);
 int determinarMatrizIdentidad( int mat [][TAM], int orden);
 int determinarMatrizDiagonal( int mat [][TAM],int orden);
+int determinarSimetria(int mat [][TAM], int orden);
+void trasponerMatriz(int mat[][TAM], int orden);
 #endif // MATRIZ_H_INCLUDED

@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1634943653 source:c:\users\fer\desktop\modelo parcial\parcial\cola.c
+	"Cola.h"
+
+1634943676 c:\users\fer\desktop\modelo parcial\parcial\cola.h
+	"Defs.h"
+	"Tipos.h"
+
+1402252798 c:\users\fer\desktop\modelo parcial\parcial\defs.h
+
+1413477192 c:\users\fer\desktop\modelo parcial\parcial\tipos.h
+
+1634953084 source:c:\users\fer\desktop\modelo parcial\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Tipos.h"
+	"Cola.h"
+	"Utilitarias.h"
+
+1634943313 c:\users\fer\desktop\modelo parcial\parcial\utilitarias.h
+
+1634999170 source:c:\users\fer\desktop\modelo parcial\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	"Tipos.h"
+	"Cola.h"
+	"Utilitarias.h"
+

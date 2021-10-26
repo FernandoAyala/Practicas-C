@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1576415655 source:c:\users\fernando\desktop\practicafinal\cadena\main.cpp
+	"funh.h"
+
+1576422340 c:\users\fernando\desktop\practicafinal\cadena\funh.h
+	<iostream>
+	<string.h>
+
+1576422303 source:c:\users\fernando\desktop\practicafinal\cadena\func.cpp
+	"funh.h"
+
+1576422420 source:d:\unlam\2020\finalprogra2020\c++\cadena\func.cpp
+	"funh.h"
+
+1576422420 d:\unlam\2020\finalprogra2020\c++\cadena\funh.h
+	<iostream>
+	<string.h>
+
+1635002742 source:d:\unlam\2020\finalprogra2020\c++\cadena\main.cpp
+	"funh.h"
+

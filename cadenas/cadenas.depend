@@ -12,9 +12,10 @@
 
 1630713503 c:\users\jonatan uran\desktop\03-09-2021\cadenas\funciones.h
 
-1633708241 source:d:\unlam\2021\programacion\0-1ejercicios\cadenas\cadenas.c
+1635216977 source:d:\unlam\2021\programacion\0-1ejercicios\cadenas\cadenas.c
 	<stdio.h>
 	<stdlib.h>
+	"cadenas.h"
 
 1632870906 source:d:\unlam\2021\programacion\0-1ejercicios\cadenas\funciones.c
 	<string.h>
@@ -22,12 +23,12 @@
 
 1631576215 d:\unlam\2021\programacion\0-1ejercicios\cadenas\funciones.h
 
-1633702581 source:d:\unlam\2021\programacion\0-1ejercicios\cadenas\main.c
+1635212821 source:d:\unlam\2021\programacion\0-1ejercicios\cadenas\main.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"
 	"cadenas.h"
 	<string.h>
 
-1633708277 d:\unlam\2021\programacion\0-1ejercicios\cadenas\cadenas.h
+1635213402 d:\unlam\2021\programacion\0-1ejercicios\cadenas\cadenas.h
 

@@ -20,6 +20,13 @@ int main()
     char pala1[5]="la";
     char pala2[20]="Holacuates";
     char copi[TAM];
+    int val;
+
+    t_movimiento_banco mov ={"637043",'D',404.4};
+
+   val = validar_nro_cuenta(&mov);
+
+   printf("\nVal %d \n",val);
 
     int cantLetras,apariciones, cant_palabras, cmp/*, long_palabra*/;
 

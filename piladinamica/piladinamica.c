@@ -1,6 +1,7 @@
 #include "piladinamica.h"
 #include <stdlib.h>
 #include <string.h>
+#define minimo(X, Y) ((X) < (Y)? (X) : (Y))
 
 void crear_pila(tPila * pp)
 {
@@ -41,6 +42,15 @@ int sacar_de_pila(tPila * pp, void * pd, unsigned tam)
 
 ///int ver_tope_pila(const tPila * pp, void * pd, unsigned tamDato);
 
+int ver_tope(const tPila *pp, void *pd, unsigned tamDato)
+{
+    if(*pp == NULL)
+        return 0;
+
+    memcpy(pd, (*pp)->info, minimo(tamDato, (*pp)->tamInfo));
+    return 1;
+}
+
 int pila_vacia(const tPila * pp)
 {
     return *pp == NULL;
@@ -56,3 +66,15 @@ int pila_llena(const tPila * pp, unsigned tam)
 }
 
 ///void vaciar_pila(tPila * pp);
+
+void vaciar_pila(tPila *p)
+{
+    while(*p)
+    {
+        tNodo *aux= *p;
+
+        *p = aux->sig;
+        free(aux->info);
+        free(aux);
+    }
+}
