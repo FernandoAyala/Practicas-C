@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1637626241 source:d:\unlam\2021\programacion\0-1ejercicios\arbol\arbol.c
+	"arbol.h"
+
+1637626241 d:\unlam\2021\programacion\0-1ejercicios\arbol\arbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1637626278 source:d:\unlam\2021\programacion\0-1ejercicios\arbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arbol.h"
+

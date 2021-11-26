@@ -3,14 +3,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct
-{
-    int dni;
-    char apellido[30];
-    char nombre[30];
-    float promedio;
-
-} t_estudiantes;
+//typedef struct
+//{
+//    int dni;
+//    char apellido[30];
+//    char nombre[30];
+//    float promedio;
+//
+//} t_estudiantes;
 
 typedef struct
 {
@@ -20,6 +20,14 @@ typedef struct
     double sueldo;
 
 } t_empleados;
+
+typedef struct
+{
+	char nroPed[6];
+	char codProd[6];
+	int cantPed;
+}t_estudiantes;
+
 
 int cargarArchivoEstudiantes(char *nombre);
 int cargarArchivoEmpleados(char *nombre);

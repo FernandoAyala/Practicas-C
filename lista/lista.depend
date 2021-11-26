@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1636675641 source:d:\unlam\2021\programacion\0-1ejercicios\lista\lista.c
+	"lista.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1636675639 d:\unlam\2021\programacion\0-1ejercicios\lista\lista.h
+
+1636675561 source:d:\unlam\2021\programacion\0-1ejercicios\lista\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+
+1636676370 source:d:\unlam\2021\programacion\0-1ejercicios\lista\listad.c
+

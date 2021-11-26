@@ -75,12 +75,12 @@ tPila pila1, pilaDestino;
 int entero=0, sacent,sacdes, cont=0;
 crear_pila(&pila1);
 crear_pila(&pilaDestino);
-while(entero !=1)
+while(entero !=-1)
       {
           scanf("%d",&entero);
           printf("\n");
           poner_en_pila(&pila1,&entero,sizeof(entero));
-          if(entero == 8)
+          if(entero != 8)
             {
           sacar_de_pila(&pila1,&sacent,sizeof(sacent));
           poner_en_pila(&pilaDestino,&sacent,sizeof(sacent));
@@ -92,6 +92,11 @@ while(entero !=1)
         sacar_de_pila(&pilaDestino,&sacdes,sizeof(sacdes));
         printf("\n%d\n sacamos: %d",sacdes,cont);
 }
+
+/***.**/
+
+
+
 
     return 0;
 }

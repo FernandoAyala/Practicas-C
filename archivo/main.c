@@ -10,26 +10,26 @@ int main()
     t_estudiantes estudiante;
 
     ///todo: validar se hayan cargado los arch
-    cargarArchivoEstudiantes("alu1.dat");
+    // cargarArchivoEstudiantes("alu1.dat");
     // cargarArchivoEmpleados("alu2.dat");
     ///
-    pf1 = fopen("alu1.dat", "rb");
-    if (!pf1)
-    {
-        return 1;
-    }
+//    pf1 = fopen("alu1.dat", "rb");
+//    if (!pf1)
+//    {
+//        return 1;
+//    }
 //    pf2 = fopen("alu2.dat", "r+b");
 //    if (!pf2)
 //    {
 //        fclose(pf1);
 //        return 2;
 //    }
-    pfLv = fopen("LV.txt", "rt");
-    if (!pfLv)
-    {
-        fclose(pfLv);
-        return 3;
-    }
+//    pfLv = fopen("LV.txt", "rt");
+//    if (!pfLv)
+//    {
+//        fclose(pfLv);
+//        return 3;
+//    }
     pfLf = fopen("LF.txt", "rt");
     if (!pfLf)
     {
@@ -58,11 +58,12 @@ int main()
 //{
 //    printf("%d|%s|%s|%.2f\n", estudiante.dni,estudiante.apellido,estudiante.nombre,estudiante.promedio);
 //}
-    while(leerEstudianteTxtLf(pfLf, &estudiante))
-    {
-        printf("%010d%-30s%-30s%010.2f\n", estudiante.dni,estudiante.apellido,estudiante.nombre,estudiante.promedio);
-        fwrite(&estudiante,sizeof(t_estudiantes),1,pfTab);
-    }
+    leerEstudianteTxtLf(pfLf, &estudiante);
+        printf("%-6s%-6s%03d\n", estudiante.nroPed,estudiante.codProd,estudiante.cantPed);
+
+         leerEstudianteTxtLf(pfLf, &estudiante);
+        printf("%-6s%-6s%03d\n", estudiante.nroPed,estudiante.codProd,estudiante.cantPed);
+        // fwrite(&estudiante,sizeof(t_estudiantes),1,pfTab);
 
 
 //
@@ -72,19 +73,19 @@ int main()
 //        printf("\ndni %d, ap %s, nom %s, sueldo %.2f ", empleado.dni,empleado.apellido,empleado.nombre,empleado.sueldo);
 //        fread(&empleado, sizeof(t_empleados), 1, pf2);
 //    }
-    fclose(pfTab);
-    pfTab = fopen("estudiantes.dat", "rb");
-    if (!pfTab)
-    {
-        fclose(pfTab);
-        return 5;
-    }
-    fread(&estudiante, sizeof(t_estudiantes), 1, pfTab);
-    while (!feof(pfTab))
-    {
-        printf("\ndni %d ap %s nom %s promedio%.2f ", estudiante.dni,estudiante.apellido,estudiante.nombre,estudiante.promedio);
-        fread(&estudiante, sizeof(t_estudiantes), 1, pfTab);
-    }
+//    fclose(pfTab);
+//    pfTab = fopen("estudiantes.dat", "rb");
+//    if (!pfTab)
+//    {
+//        fclose(pfTab);
+//        return 5;
+//    }
+//    fread(&estudiante, sizeof(t_estudiantes), 1, pfTab);
+//    while (!feof(pfTab))
+//    {
+//        printf("\ndni %d ap %s nom %s promedio%.2f ", estudiante.dni,estudiante.apellido,estudiante.nombre,estudiante.promedio);
+//        fread(&estudiante, sizeof(t_estudiantes), 1, pfTab);
+//    }
 //    fclose(pf2);
     fclose(pf1);
     fclose(pfLv);

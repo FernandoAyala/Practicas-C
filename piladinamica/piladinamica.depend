@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1635049403 source:d:\unlam\2021\programacion\0-1ejercicios\piladinamica\main.c
+1635279480 source:d:\unlam\2021\programacion\0-1ejercicios\piladinamica\main.c
 	<stdio.h>
 	<stdlib.h>
 	"piladinamica.h"

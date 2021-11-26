@@ -26,3 +26,30 @@
 	"Cola.h"
 	"Utilitarias.h"
 
+1634943653 source:d:\unlam\2021\programacion\0-1ejercicios\parcialesdepractica\modelo parcial-2014\parcial\cola.c
+	"Cola.h"
+
+1634943676 d:\unlam\2021\programacion\0-1ejercicios\parcialesdepractica\modelo parcial-2014\parcial\cola.h
+	"Defs.h"
+	"Tipos.h"
+
+1402252798 d:\unlam\2021\programacion\0-1ejercicios\parcialesdepractica\modelo parcial-2014\parcial\defs.h
+
+1413477192 d:\unlam\2021\programacion\0-1ejercicios\parcialesdepractica\modelo parcial-2014\parcial\tipos.h
+
+1635275085 source:d:\unlam\2021\programacion\0-1ejercicios\parcialesdepractica\modelo parcial-2014\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Tipos.h"
+	"Cola.h"
+	"Utilitarias.h"
+
+1635275063 d:\unlam\2021\programacion\0-1ejercicios\parcialesdepractica\modelo parcial-2014\parcial\utilitarias.h
+
+1635275063 source:d:\unlam\2021\programacion\0-1ejercicios\parcialesdepractica\modelo parcial-2014\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	"Tipos.h"
+	"Cola.h"
+	"Utilitarias.h"
+
