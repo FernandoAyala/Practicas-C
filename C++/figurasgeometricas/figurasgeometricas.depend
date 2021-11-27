@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1636822305 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figura.cpp
+
+1638042859 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\main.cpp
+	<iostream>
+	"figuras.h"
+	"figuras2D.h"
+	"figuras3D.h"
+	"circulo.h"
+	"cuadrado.h"
+	"triangulo.h"
+	"esfera.h"
+
+1638032621 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figuras.h
+	<iostream>
+
+1638033202 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figuras2d.h
+	"figuras.h"
+	<iostream>
+
+1638042744 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figuras3d.h
+	"figuras.h"
+	<iostream>
+
+1638032083 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\circulo.h
+	<iostream>
+	"figuras2D.h"
+
+1638032870 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\cuadrado.h
+	<iostream>
+	"figuras2D.h"
+
+1638032050 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\triangulo.h
+	"figuras2D.h"
+	<iostream>
+
+1638042579 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\esfera.h
+	<iostream>
+	"figuras3D.h"
+
+1638032997 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\circulo.cpp
+	"circulo.h"
+
+1638033005 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\cuadrado.cpp
+	"cuadrado.h"
+
+1638042330 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\triangulo.cpp
+	"triangulo.h"
+	<math.h>
+
+1638042967 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\esfera.cpp
+	"esfera.h"
+	<math.h>
+

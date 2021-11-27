@@ -32,9 +32,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="figura.cpp" />
+		<Unit filename="circulo.cpp" />
+		<Unit filename="circulo.h" />
+		<Unit filename="cuadrado.cpp" />
+		<Unit filename="cuadrado.h" />
+		<Unit filename="esfera.cpp" />
+		<Unit filename="esfera.h" />
 		<Unit filename="figuras.h" />
+		<Unit filename="figuras2D.h" />
+		<Unit filename="figuras3D.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="triangulo.cpp" />
+		<Unit filename="triangulo.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
