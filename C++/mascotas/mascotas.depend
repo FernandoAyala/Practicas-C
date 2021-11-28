@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1638075575 source:d:\unlam\2021\programacion\0-1ejercicios\c++\mascotas\gato.cpp
+	"gato.h"
+
+1638076507 source:d:\unlam\2021\programacion\0-1ejercicios\c++\mascotas\mascotas.cpp
+	"mascotas.h"
+
+1638076569 source:d:\unlam\2021\programacion\0-1ejercicios\c++\mascotas\perro.cpp
+	"perro.h"
+
+1638076507 d:\unlam\2021\programacion\0-1ejercicios\c++\mascotas\mascotas.h
+	<iostream>
+
+1638075946 source:d:\unlam\2021\programacion\0-1ejercicios\c++\mascotas\main.cpp
+	<iostream>
+	"mascotas.h"
+	"perro.h"
+	"gato.h"
+
+1638076262 d:\unlam\2021\programacion\0-1ejercicios\c++\mascotas\perro.h
+	<iostream>
+	"mascotas.h"
+
+1638075597 d:\unlam\2021\programacion\0-1ejercicios\c++\mascotas\gato.h
+	"mascotas.h"
+
