@@ -6,6 +6,7 @@
 #include "cuadrado.h"
 #include "triangulo.h"
 #include "esfera.h"
+#include "valorinvalidoException.h"
 
 using namespace std;
 
@@ -17,35 +18,67 @@ int main()
 
     // Definir las variables necesarias
 
-    double radio = 5;
+    double radio = 1;
 
-    figuraBidimensional = new Circulo(radio);
-    cout <<"Area "<< figuraBidimensional -> area() << endl;
-    cout <<"Perimetro "<< figuraBidimensional -> perimetro() << endl;
-    delete figuraBidimensional;
+    cout <<"CIRCULO"<< endl;
+    try
+    {
+        figuraBidimensional = new Circulo(radio);
+        cout <<"Area "<< figuraBidimensional -> area() << endl;
+        cout <<"Perimetro "<< figuraBidimensional -> perimetro() << endl;
+        delete figuraBidimensional;
+    }
+    catch( ValorInvalidoException &error)
+    {
+        cout << error.what() << endl;
+    }
 
-    double lado = 5;
-
-    figuraBidimensional = new Cuadrado(lado);
-    cout <<"Area "<< figuraBidimensional -> area()<< endl;
-    cout <<"Perimetro "<< figuraBidimensional -> perimetro()<< endl;
-    delete figuraBidimensional;
+    double lado = -5;
+    cout <<endl;
+    cout <<"CUADRADO"<< endl;
+    try
+    {
+        figuraBidimensional = new Cuadrado(lado);
+        cout <<"Area "<< figuraBidimensional -> area()<< endl;
+        cout <<"Perimetro "<< figuraBidimensional -> perimetro()<< endl;
+        delete figuraBidimensional;
+    }
+    catch(ValorInvalidoException &error)
+    {
+        cout << error.what() << endl;
+    }
 
     double lado1 = 5;
     double lado2 = 5;
     double lado3 = 5;
-
-    figuraBidimensional = new Triangulo(lado1, lado2, lado3);
-    cout <<"Area "<< figuraBidimensional -> area()<< endl;
-    cout <<"Perimetro "<< figuraBidimensional -> perimetro()<< endl;
-    delete figuraBidimensional;
+    cout <<endl;
+    cout <<"TRIANGULO"<< endl;
+    try
+    {
+        figuraBidimensional = new Triangulo(lado1, lado2, lado3);
+        cout <<"Area "<< figuraBidimensional -> area()<< endl;
+        cout <<"Perimetro "<< figuraBidimensional -> perimetro()<< endl;
+        delete figuraBidimensional;
+    }
+    catch(ValorInvalidoException &error)
+    {
+        cout << error.what() << endl;
+    }
 
     double radioE = 2;
+    cout <<endl;
+    cout <<"ESFERA"<< endl;
 
+    try{
     figuraTridimensional = new Esfera(radioE);
     cout <<"Area "<< figuraTridimensional -> area()<< endl;
     cout <<"VOlumen " << figuraTridimensional -> volumen()<< endl;
     delete figuraTridimensional;
+    }
+    catch (ValorInvalidoException &error)
+    {
+        cout <<error.what() << endl;
+    }
 
     // Hacer lo mismo para Tetraedro y Cubo
 

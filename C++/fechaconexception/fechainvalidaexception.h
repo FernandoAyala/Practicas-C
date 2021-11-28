@@ -7,10 +7,7 @@
 class FechaInvalidaException : public std::exception
 {
 public:
-    const char* what() throw()
-    {
-        return "Error en la fecha";
-    }
+    const char* what();
 };
 
 #endif // FECHAINVALIDAEXCEPTION_H_INCLUDED

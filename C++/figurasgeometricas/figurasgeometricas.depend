@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
 1636822305 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figura.cpp
 
-1638042859 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\main.cpp
+1638060909 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\main.cpp
 	<iostream>
 	"figuras.h"
 	"figuras2D.h"
@@ -10,6 +10,7 @@
 	"cuadrado.h"
 	"triangulo.h"
 	"esfera.h"
+	"valorinvalidoException.h"
 
 1638032621 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figuras.h
 	<iostream>
@@ -38,17 +39,27 @@
 	<iostream>
 	"figuras3D.h"
 
-1638032997 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\circulo.cpp
+1638059331 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\circulo.cpp
 	"circulo.h"
+	"valorinvalidoException.h"
 
-1638033005 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\cuadrado.cpp
+1638059732 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\cuadrado.cpp
 	"cuadrado.h"
+	"valorinvalidoException.h"
 
-1638042330 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\triangulo.cpp
+1638060339 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\triangulo.cpp
 	"triangulo.h"
 	<math.h>
+	"valorinvalidoException.h"
 
-1638042967 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\esfera.cpp
+1638060757 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\esfera.cpp
 	"esfera.h"
 	<math.h>
+	"valorinvalidoException.h"
+
+1638061742 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\valorinvalidoexception.h
+	<exception>
+
+1638061742 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\valorinvalidoexception.cpp
+	"valorinvalidoException.h"
 

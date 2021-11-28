@@ -5,15 +5,14 @@
 
 1637060955 d:\unlam\2021\programacion\0-1ejercicios\c++\fechaconexception\fecha.h
 
-1637064686 d:\unlam\2021\programacion\0-1ejercicios\c++\fechaconexception\fechainvalidaexception.h
+1638060977 d:\unlam\2021\programacion\0-1ejercicios\c++\fechaconexception\fechainvalidaexception.h
 	<exception>
 
-1637061494 source:d:\unlam\2021\programacion\0-1ejercicios\c++\fechaconexception\main.cpp
+1638056854 source:d:\unlam\2021\programacion\0-1ejercicios\c++\fechaconexception\main.cpp
 	"fecha.h"
 	"fechainvalidaexception.h"
 	<iostream>
 
-1637064443 source:d:\unlam\2021\programacion\0-1ejercicios\c++\fechaconexception\fechainvalidaexception.cpp
+1638061603 source:d:\unlam\2021\programacion\0-1ejercicios\c++\fechaconexception\fechainvalidaexception.cpp
 	"fechainvalidaexception.h"
-	"fecha.h"
 

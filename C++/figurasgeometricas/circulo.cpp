@@ -1,7 +1,13 @@
 #include "circulo.h"
+#include "valorinvalidoException.h"
 
 Circulo::Circulo(double _radio)
 {
+    if(_radio <= 0)
+    {
+        throw ValorInvalidoException();
+    }
+    else
     radio =_radio;
 }
 

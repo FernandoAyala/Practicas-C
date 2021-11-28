@@ -1,8 +1,14 @@
 #include "esfera.h"
 #include <math.h>
+#include "valorinvalidoException.h"
 
 Esfera::Esfera(double _radio)
 {
+    if(_radio<=0)
+    {
+        throw ValorInvalidoException();
+    }
+    else
     radio =_radio;
 }
 
