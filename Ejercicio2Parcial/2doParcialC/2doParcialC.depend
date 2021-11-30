@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1637110738 source:d:\unlam\2021\programacion\parcial2 repaso\16112021\2\indices con lista simple\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<utilitarias.h>
+	<varias.h>
+	<lista.h>
+
+1637110670 d:\unlam\2021\programacion\parcial2 repaso\16112021\2\indices con lista simple\include\utilitarias.h
+	<stdio.h>
+	<lista.h>
+
+1636759395 d:\unlam\2021\programacion\parcial2 repaso\16112021\2\indices con lista simple\include\lista.h
+	<tipos.h>
+
+1575043640 d:\unlam\2021\programacion\parcial2 repaso\16112021\2\indices con lista simple\include\tipos.h
+
+1575043638 d:\unlam\2021\programacion\parcial2 repaso\16112021\2\indices con lista simple\include\varias.h
+
+1638138764 source:d:\unlam\2021\programacion\parcial2 repaso\16112021\2\indices con lista simple\2doparcialc\utilitarias.c
+	<utilitarias.h>
+	<string.h>
+	<varias.h>
+
+1637110738 source:d:\unlam\2021\programacion\0-1ejercicios\ejercicio2parcial\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<utilitarias.h>
+	<varias.h>
+	<lista.h>
+
+1637110670 d:\unlam\2021\programacion\0-1ejercicios\ejercicio2parcial\include\utilitarias.h
+	<stdio.h>
+	<lista.h>
+
+1636759395 d:\unlam\2021\programacion\0-1ejercicios\ejercicio2parcial\include\lista.h
+	<tipos.h>
+
+1575043640 d:\unlam\2021\programacion\0-1ejercicios\ejercicio2parcial\include\tipos.h
+
+1575043638 d:\unlam\2021\programacion\0-1ejercicios\ejercicio2parcial\include\varias.h
+
+1638138764 source:d:\unlam\2021\programacion\0-1ejercicios\ejercicio2parcial\2doparcialc\utilitarias.c
+	<utilitarias.h>
+	<string.h>
+	<varias.h>
+
