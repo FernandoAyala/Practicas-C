@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1638245964 source:c:\users\mguerrera\documents\facultad\facultad\progra 2021\2 cuatri\practica\c++\cadena\cadena.cpp
+	"Cadena.h"
+
+1638245889 c:\users\mguerrera\documents\facultad\facultad\progra 2021\2 cuatri\practica\c++\cadena\cadena.h
+	<string.h>
+	<iostream>
+
+1638246059 source:c:\users\mguerrera\documents\facultad\facultad\progra 2021\2 cuatri\practica\c++\cadena\main.cpp
+	<iostream>
+	"Cadena.h"
+
+1638286991 source:c:\users\fer\desktop\cadena\cadena.cpp
+	"Cadena.h"
+
+1638245889 c:\users\fer\desktop\cadena\cadena.h
+	<string.h>
+	<iostream>
+
+1638286975 source:c:\users\fer\desktop\cadena\main.cpp
+	<iostream>
+	"Cadena.h"
+

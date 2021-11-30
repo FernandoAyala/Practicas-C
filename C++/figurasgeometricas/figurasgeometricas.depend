@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
 1636822305 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figura.cpp
 
-1638060909 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\main.cpp
+1638284364 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\main.cpp
 	<iostream>
 	"figuras.h"
 	"figuras2D.h"
@@ -15,7 +15,7 @@
 1638032621 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figuras.h
 	<iostream>
 
-1638033202 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figuras2d.h
+1638158787 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figuras2d.h
 	"figuras.h"
 	<iostream>
 
@@ -57,9 +57,12 @@
 	<math.h>
 	"valorinvalidoException.h"
 
-1638061742 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\valorinvalidoexception.h
+1638284230 d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\valorinvalidoexception.h
 	<exception>
 
-1638061742 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\valorinvalidoexception.cpp
+1638284229 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\valorinvalidoexception.cpp
 	"valorinvalidoException.h"
+
+1638158757 source:d:\unlam\2021\programacion\0-1ejercicios\c++\figurasgeometricas\figuras2d.cpp
+	"figuras2D.h"
 

@@ -18,7 +18,7 @@ int main()
 
     // Definir las variables necesarias
 
-    double radio = 1;
+    double radio = -1;
 
     cout <<"CIRCULO"<< endl;
     try
@@ -32,6 +32,8 @@ int main()
     {
         cout << error.what() << endl;
     }
+
+
 
     double lado = -5;
     cout <<endl;
@@ -69,11 +71,12 @@ int main()
     cout <<endl;
     cout <<"ESFERA"<< endl;
 
-    try{
-    figuraTridimensional = new Esfera(radioE);
-    cout <<"Area "<< figuraTridimensional -> area()<< endl;
-    cout <<"VOlumen " << figuraTridimensional -> volumen()<< endl;
-    delete figuraTridimensional;
+    try
+    {
+        figuraTridimensional = new Esfera(radioE);
+        cout <<"Area "<< figuraTridimensional -> area()<< endl;
+        cout <<"VOlumen " << figuraTridimensional -> volumen()<< endl;
+        delete figuraTridimensional;
     }
     catch (ValorInvalidoException &error)
     {

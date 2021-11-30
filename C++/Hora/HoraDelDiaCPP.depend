@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1638291192 source:d:\unlam\2021\programacion\parcial2 repaso\cpp\hora.cpp
+	"hora.h"
+
+1638291235 d:\unlam\2021\programacion\parcial2 repaso\cpp\hora.h
+	<iostream>
+
+1638291327 source:d:\unlam\2021\programacion\parcial2 repaso\cpp\main.cpp
+	<iostream>
+	<windows.h>
+	"hora.h"
+
+1638292333 source:d:\unlam\2021\programacion\0-1ejercicios\c++\hora\hora.cpp
+	"hora.h"
+
+1638292324 d:\unlam\2021\programacion\0-1ejercicios\c++\hora\hora.h
+	<iostream>
+
+1638292313 source:d:\unlam\2021\programacion\0-1ejercicios\c++\hora\main.cpp
+	<iostream>
+	<windows.h>
+	"hora.h"
+
