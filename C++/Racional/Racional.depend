@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1638584581 source:d:\unlam\2021\programacion\0-1ejercicios\c++\racional\racional.cpp
+	"Racional.h"
+
+1638584442 source:d:\unlam\2021\programacion\0-1ejercicios\c++\racional\main.cpp
+	<iostream>
+	"Racional.h"
+
+1638584574 d:\unlam\2021\programacion\0-1ejercicios\c++\racional\racional.h
+	<iostream>
+
