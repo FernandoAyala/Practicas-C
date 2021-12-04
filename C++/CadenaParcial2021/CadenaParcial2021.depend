@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1638643172 source:d:\unlam\2021\programacion\0-1ejercicios\c++\cadenaparcial2021\cadena.cpp
+	"Cadena.h"
+
+1638642944 source:d:\unlam\2021\programacion\0-1ejercicios\c++\cadenaparcial2021\main.cpp
+	<iostream>
+	"Cadena.h"
+
+1638641153 d:\unlam\2021\programacion\0-1ejercicios\c++\cadenaparcial2021\cadena.h
+	<iostream>
+	<string.h>
+
