@@ -71,7 +71,7 @@ Cadena operator+(const char *cad,const Cadena &obj)
     Cadena sum;
     sum.pal = new char[strlen(cad) + strlen(obj.pal) +1];
     strcpy(sum.pal, cad);
-    strcat(sum.pal , obj.pal);
+    strcat(sum.pal, obj.pal);
     delete[] obj.pal;
     return sum.pal;
 }

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1584205420 source:d:\unlam\2021\programacion\0-1ejercicios\listadoble\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1638734033 source:d:\unlam\2021\programacion\0-1ejercicios\listadoble\listadoble.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listadoble.h"
+
+1638734053 d:\unlam\2021\programacion\0-1ejercicios\listadoble\listadoble.h
+
