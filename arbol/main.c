@@ -82,10 +82,13 @@ void probarFuncionesVarias()
     }
     printf("\n\n");
     ///imprimir el arbol
-    recorrerEnOrdenArbolBinBusq(&ar,NULL,imprimir);
+      printf("Orden\n");
+    recorrerEnOrdenArbolBinBusq(&ar,NULL,imprimirConForma);
     printf("\n\n");
-    recorrerPreOrdenArbolBinBusq(&ar,NULL,imprimir);
+     printf("PreOrden\n");
+    recorrerPreOrdenArbolBinBusq(&ar,NULL,imprimirConForma);
     printf("\n\n");
+     printf("PosOrden\n");
     recorrerPosOrdenArbolBinBusq(&ar,NULL,imprimir);
     printf("\n\n");
     recorrerEnOrdenInversoArbolBinBusq(&ar,NULL,imprimirConForma);

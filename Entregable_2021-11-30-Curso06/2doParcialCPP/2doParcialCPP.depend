@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1638313896 source:c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\2doparcialcpp\hora.cpp
+	"hora.h"
+
+1638313371 source:c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\2doparcialcpp\main.cpp
+	<iostream>
+	<windows.h>
+	"hora.h"
+
+1638313560 c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\2doparcialcpp\hora.h
+	<iostream>
+

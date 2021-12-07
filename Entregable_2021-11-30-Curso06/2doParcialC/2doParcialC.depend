@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1638316732 source:c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\2doparcialc\arbol.c
+	<tipos.h>
+	<stdio.h>
+	<stdlib.h>
+	<arbol.h>
+
+1638161045 c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\include\tipos.h
+
+1638161404 c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\include\arbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1638318075 source:c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<utilitarias.h>
+	<varias.h>
+	<arbol.h>
+
+1638315175 c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\include\utilitarias.h
+	<stdio.h>
+	<arbol.h>
+	<tipos.h>
+
+1638161862 c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\include\varias.h
+
+1638318101 source:c:\users\laboratorios\desktop\entregable_2021-11-30-curso06\2doparcialc\utilitarias.c
+	<utilitarias.h>
+	<string.h>
+	<varias.h>
+
+1638883937 source:c:\users\fer\desktop\entregable_2021-11-30-curso06\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<utilitarias.h>
+	<varias.h>
+	<arbol.h>
+
+1638882599 c:\users\fer\desktop\entregable_2021-11-30-curso06\include\utilitarias.h
+	<stdio.h>
+	<arbol.h>
+	<tipos.h>
+
+1638883173 c:\users\fer\desktop\entregable_2021-11-30-curso06\include\arbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1638161045 c:\users\fer\desktop\entregable_2021-11-30-curso06\include\tipos.h
+
+1638161862 c:\users\fer\desktop\entregable_2021-11-30-curso06\include\varias.h
+
+1638884324 source:c:\users\fer\desktop\entregable_2021-11-30-curso06\2doparcialc\utilitarias.c
+	<utilitarias.h>
+	<string.h>
+	<varias.h>
+
+1638883469 source:c:\users\fer\desktop\entregable_2021-11-30-curso06\2doparcialc\arbol.c
+	<tipos.h>
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+
